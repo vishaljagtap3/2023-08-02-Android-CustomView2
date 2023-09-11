@@ -18,8 +18,15 @@
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/imgFile"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:id="@+id/txtFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtFileSize"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/txtFileName"
+        app:layout_constraintLeft_toLeftOf="@id/txtFileName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
